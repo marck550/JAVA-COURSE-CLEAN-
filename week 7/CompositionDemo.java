@@ -6,7 +6,7 @@ class Engine {
 }
 
 class Car {
-    private Engine engine;
+    private final Engine engine;
 
     public Car() {
         this.engine = new Engine();
